@@ -440,17 +440,17 @@ color: #0099ff;
     font-size: 25px;
 
 }
-@media(max-width: 500px){
+@media(max-width: 500px) and (min-width: 360px){
     nav{
         position: absolute;
-        width: 200%;
+       min-width: 100%;
         height: 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     body{
-        overflow-x: hidden;
+        max-width: 500px;
         margin: 0;
         padding: 0;
         
@@ -469,13 +469,12 @@ color: #0099ff;
     }
     .media{
         background-color: white;
-        position: relative;
-        width: 92%;
-      display: flex;
-      flex-direction: column;
-        z-index: 10;
-        bottom: -400px;
-        left: 10px;
+       min-width: 96%;
+      display: block;
+        z-index: 1999;
+        margin: 1% 0 1% 0;
+        bottom: -70%;
+        align-items: center;
         position: fixed;
         padding: 10px;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 15); 
@@ -485,7 +484,7 @@ color: #0099ff;
     }
     .media ul{
         display: flex;
-        width: 83%;
+        width: 350px;
         justify-content: space-evenly;
         color: red;
         position: relative;
@@ -605,6 +604,9 @@ top: 330px;
         width: 100%;
         margin-left: -10px;
     }
+    .content-about{
+        width: 93%;
+    }
     .about2{
         width: 250px;
         margin-top: -200px;
@@ -677,8 +679,8 @@ top: 330px;
     }
     .sosmedmeta{
         width: 60%;
-        margin-left: 100px;
-        height: 50px;
+        margin-left: 22%;
+
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
