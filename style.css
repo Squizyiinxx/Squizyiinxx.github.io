@@ -483,7 +483,7 @@ color: #0099ff;
     }
     .media ul{
         display: flex;
-        width: 90%;
+        width: 85%;
         place-content: center;
         color: red;
         position: relative;
