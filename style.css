@@ -440,7 +440,7 @@ color: #0099ff;
     font-size: 25px;
 
 }
-@media(max-width: 500px) and (min-width: 360px){
+@media(max-width: 500px){
     nav{
         position: absolute;
        min-width: 100%;
@@ -469,12 +469,11 @@ color: #0099ff;
     }
     .media{
         background-color: white;
-       min-width: 96%;
+       width: 96%;
       display: block;
         z-index: 1999;
-        margin: 1% 0 1% 0;
         bottom: -70%;
-        align-items: center;
+        place-content: center;
         position: fixed;
         padding: 10px;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 15); 
@@ -484,8 +483,8 @@ color: #0099ff;
     }
     .media ul{
         display: flex;
-        width: 350px;
-        justify-content: space-evenly;
+        width: 90%;
+        place-content: center;
         color: red;
         position: relative;
     }
@@ -605,7 +604,7 @@ top: 330px;
         margin-left: -10px;
     }
     .content-about{
-        width: 93%;
+        width: 90%;
     }
     .about2{
         width: 250px;
@@ -646,14 +645,17 @@ top: 330px;
         margin-left: 5px;
     }
     .col{
-        width: 80%;
-        margin-left: 5% ;
+        width: 70%;
+        margin-left: 3% ;
     }
     .col input{
-        width: 100%;
+        width: 97%;
     }
     .col textarea{
-        width: 100%;
+        width: 97%;
+    }
+    .contact{
+        width: 100%
     }
     .contact h1{
         font-size: 35px;
