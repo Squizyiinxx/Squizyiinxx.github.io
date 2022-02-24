@@ -440,7 +440,7 @@ color: #0099ff;
     font-size: 25px;
 
 }
-@media(max-width: 500px){
+@media screen and (max-width: 500px) {
     nav{
         position: absolute;
        min-width: 100%;
@@ -470,7 +470,8 @@ color: #0099ff;
     .media{
         background-color: white;
        width: 96%;
-      display: block;
+      display: flex;
+      flex-direction: column;
         z-index: 1999;
         bottom: -70%;
         place-content: center;
@@ -483,7 +484,7 @@ color: #0099ff;
     }
     .media ul{
         display: flex;
-        width: 85%;
+        width: 86%;
         place-content: center;
         color: red;
         position: relative;
@@ -692,18 +693,17 @@ top: 330px;
         color: black;
     }
     .swiper {
-        width: 100%;
+        width: 90%;
         height: 70%;
       }
       .swiper-slide {
         text-align: center;
         font-size: 13px;
         width: 10px;
-        height: 50px;
         background: #fff;
       }
       .swiper-slide img{
-          width: 300px;
+          width: 70%;
           margin-left: 0px;
       }
       .swiper-button-next{
@@ -727,7 +727,7 @@ top: 330px;
        display: none;
    }
    .alert{
-    width: 360px;
+    width: 70%;
     height: 60px;
     background-color:  #20c997;
     justify-content: space-evenly;
